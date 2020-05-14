@@ -2,10 +2,10 @@ version: 2.1
 orbs:
   node: circleci/node@1.1.6
 jobs:
-  build-and-test:
-    executor:
-      name: node/default
-
+    docker:
+        # specify the version you desire here
+        - image: circleci/node:13.5.0
+              
     steps:
         - checkout
         - run: npm install
