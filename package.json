@@ -1,0 +1,14 @@
+{
+  "name": "circle_js",
+  "version": "1.0.0",
+  "description": "Simple test with circle ci integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "revlig",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
