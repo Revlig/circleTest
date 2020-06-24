@@ -1,2 +1,2 @@
 # circleTest
-test
+*test*
